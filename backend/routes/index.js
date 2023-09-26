@@ -11,7 +11,6 @@ aws.config.update({
     secretAccessKey: '',
     region: 'us-east-1', // Replace with your AWS region
 });
-
 const s3 = new aws.S3();
 
 const upload = multer({ dest: 'uploads/' });
